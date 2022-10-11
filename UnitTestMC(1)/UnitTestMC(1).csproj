@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MC\MCLibrary.csproj" />
+    <ProjectReference Include="..\TicketSystemClassLibrary\TicketSystemClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>

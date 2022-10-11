@@ -1,21 +1,27 @@
 
-using CarLibrary;
+
+
+
+
+using TicketSystemClassLibrary;
 
 namespace CarMethodUnitTest;
 
 [TestClass]
 public class UnitTest1
 {
+    Car car = new Car();
+
     [TestMethod]
     [DataRow(240)]
     public void TestMethod1(double value)
     {
         //Arrange
-        var CarPrice = new Car();
+        
 
 
         //Act
-        Double Price = Car.Price();
+        Double Price = car.Price();
 
 
         //Assert
@@ -27,15 +33,14 @@ public class UnitTest1
     public void TestMethod2(string value)
     {
         //Arrange
-        var VehicleType = new Car();
-
+        
 
         //Act
-        string vehicle = Car.VehicleType(); 
+        string vehicle = car.Vehicle(); 
 
 
         //Assert
-        Assert.AreEqual(value, "Car");
+        Assert.AreEqual(value, vehicle);
     }
 
 

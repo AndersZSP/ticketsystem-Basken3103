@@ -1,6 +1,6 @@
 
 
-using MCLibrary;
+using TicketSystemClassLibrary;
 
 namespace CarMethodUnitTest;
 
@@ -12,7 +12,7 @@ namespace CarMethodUnitTest;
         public void TestMethod1(double value)
         {
             //Arrange
-            var MCPrice = new MC();
+            var MC = new MC();
 
 
             //Act
@@ -29,19 +29,22 @@ namespace CarMethodUnitTest;
         public void TestMethod2(string value)
         {
             //Arrange
-            var Vehicle = new MC();
+            var mc = new MC();
 
 
             //Act
-            string vehicle = MC.Vehicle();
+            string vehicle = mc.Vehicle();
 
 
             //Assert
             Assert.AreEqual(value, "MC");
         }
 
+        
+             
+      
 
 
 
 
-}
+  }
