@@ -9,7 +9,7 @@
     {
         public string Licenseplate { get; set; }
 
-        public string DateTimedate { get; set; }
+        public DateTime Date { get; set; }
 
 
         /// <summary>
