@@ -24,7 +24,7 @@ namespace TicketSystemClassLibrary
         /// This is a method that returns the fixed price at 125
         /// </summary>
         /// <returns>125</returns>
-        public override Double Price()
+        public override double Price()
         {
             return (125);
         }

@@ -21,7 +21,7 @@ public class UnitTest1
 
 
         //Act
-        Double Price = car.Price();
+        double Price = car.Price();
 
 
         //Assert
